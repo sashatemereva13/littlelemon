@@ -1,0 +1,73 @@
+.highlightsFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  gap: 3rem;
+  margin-top: 10rem;
+}
+.headerButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80vw;
+}
+.cardsFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+.cardImg {
+  width: 100%;
+  height: 50%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.card {
+  background-color: #edefee;
+  max-width: 20vw;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.cardTextGrid {
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+}
+.cardTextGrid h4 {
+  grid-column: 1;
+  grid-row: 1;
+}
+.cardTextGrid .price {
+  grid-column: 2;
+  grid-row: 1;
+  color: #ee9972;
+}
+.cardTextGrid .dishDescription {
+  display: inline-block;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row: 2;
+  text-align: left;
+  margin: 0;
+}
+.cardTextGrid .orderAdelivery {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row: 3;
+  text-align: left;
+  margin-top: 0;
+}
+.cardTextGrid p {
+  color: #495e57;
+  font-family: "Karla", sans-serif;
+  font-size: 0.9rem;
+}
+h4.nameOfDish {
+  font-family: "Karla", sans-serif;
+  color: #495e57;
+  margin-bottom: 0;
+}

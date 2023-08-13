@@ -1,0 +1,42 @@
+.aboutFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 6rem;
+  width: 90vw;
+  margin-left: 5rem;
+  margin-right: 1rem;
+  margin-top: 10rem;
+}
+
+.aboutTextFlex {
+  display: flex;
+  flex-direction: column;
+}
+.aboutTextFlex h3 {
+  color: #495e57;
+  margin-top: -4rem;
+  font-size: 3rem;
+}
+.aboutChefs {
+  position: relative;
+  right: 0;
+  top: 10rem;
+}
+.aboutChefs img {
+  max-width: 25rem;
+  border-radius: 16px;
+}
+.aboutChefs .Mario {
+  position: relative;
+  right: 0;
+  top: -5rem;
+}
+.aboutChefs .MarioAdrian {
+  position: relative;
+  right: -5rem;
+  top: -9rem;
+}
+.aboutFlex p {
+  color: #495e57;
+}

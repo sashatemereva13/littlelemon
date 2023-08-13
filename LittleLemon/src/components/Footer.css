@@ -1,0 +1,39 @@
+.footerFlex {
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 3rem;
+}
+.navigationFlex,
+.navigationFlex ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navigationFlex ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+.navigationFlex a {
+  color: #495e57;
+}
+.contactsFlex p,
+.socialsFlex p {
+  color: #495e57;
+  margin: 0;
+}
+.contactsFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socialsFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,19 @@
+.navFlex {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.navFlex a {
+  text-decoration: none;
+  list-style-type: none;
+  color: rgb(73, 94, 87);
+  font-family: "Karla", sans-serif;
+  font-weight: 800;
+}
+
+.navFlex a:hover {
+  color: rgb(112, 140, 131);
+}

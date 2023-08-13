@@ -1,0 +1,10 @@
+.headerFlex {
+  padding: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.bookAtableButton {
+  margin-top: 3rem;
+}

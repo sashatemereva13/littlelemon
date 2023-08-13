@@ -1,0 +1,22 @@
+.heroFlex {
+  background-color: #495e57;
+  padding: 3rem;
+  display: flex;
+  flex-direction: row;
+  gap: 7rem;
+}
+
+h1.littleLemonHeader {
+  margin-bottom: -5rem;
+}
+p.heroText {
+  font-family: "Karla", sans-serif;
+  color: #edefee;
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 65ch;
+}
+.heroImg {
+  max-width: 30vw;
+  border-radius: 16px;
+}
