@@ -56,16 +56,20 @@ p {
 }
 button {
   background-color: #f4ce14;
-  padding: 1.5rem;
+  padding: 1rem 2rem;
   font-size: 2rem;
   font-family: "Karla", sans-serif;
   font-weight: 500;
   color: #495e57;
-  border-radius: 5rem;
+  border-radius: 3rem;
   border: none;
 }
 button:hover {
   color: #ee9972;
   background-color: #333333;
   transition: 0.7s;
+}
+button:disabled {
+  color: #edefee;
+  background-color: #b2b5b3;
 }

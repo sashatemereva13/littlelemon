@@ -18,7 +18,7 @@ const Hero = () => {
             Officiis neque iure nemo nam adipisci laborum, consequatur nihil
             earum.
           </p>
-          <Link to="bookingform">
+          <Link to="bookingpage">
             <button className="bookAtableButton">Book a table</button>
           </Link>
         </div>

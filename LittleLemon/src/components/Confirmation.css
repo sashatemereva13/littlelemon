@@ -1,0 +1,17 @@
+.confirmationImg {
+  position: fixed;
+  top: 2rem;
+  left: 0;
+}
+
+.confirmation-header {
+  display: flex;
+  flex-direction: column;
+}
+.reservationDetails {
+  margin: 5rem;
+}
+.redirectButtons {
+  display: flex;
+  gap: 3rem;
+}

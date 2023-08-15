@@ -8,7 +8,8 @@ import Menu from "./components/Menu.jsx";
 import Reservations from "./components/Reservations.jsx";
 import OrderOnline from "./components/OrderOnline.jsx";
 import LogIn from "./components/LogIn.jsx";
-import BookingForm from "./components/BookingForm.jsx";
+import BookingPage from "./components/BookingPage.jsx";
+import Confirmation from "./components/Confirmation.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -20,7 +21,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/reservations" element={<Reservations />} />
         <Route path="/orderonline" element={<OrderOnline />} />
         <Route path="/login" element={<LogIn />} />
-        <Route path="/bookingform" element={<BookingForm />} />
+        <Route path="/bookingpage" element={<BookingPage />} />
+        <Route path="/confirmation" element={<Confirmation />} />
       </Routes>
     </Router>
   </React.StrictMode>
